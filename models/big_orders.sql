@@ -1,1 +1,5 @@
-select order_id,AMOUNT FROM sales where amount>200
+select
+    order_id,
+    amount
+from sales
+where amount > 200
